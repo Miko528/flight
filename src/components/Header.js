@@ -3,7 +3,7 @@ import styled from "styled-components";
 import FlightIcon from "@material-ui/icons/Flight";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
 
 function Header() {
   const [burger, setBurger] = useState(false);
@@ -106,7 +106,7 @@ function Header() {
           duration={500}
           style={{ cursor: "pointer" }}
         >
-          <li>Nowości</li>
+          <li>Witamy</li>
         </Link>
 
         <Link
@@ -120,6 +120,12 @@ function Header() {
           style={{ cursor: "pointer" }}
         >
           <li>Oferta</li>
+        </Link>
+        <Link
+        onClick={() => setBurger(false)}
+        to="/Page3"
+        >
+        <li>Nowości</li>
         </Link>
 
         <Link

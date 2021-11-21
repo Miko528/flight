@@ -13,7 +13,7 @@ function Page2() {
             <FlightTakeoffIcon style={{ fontSize: 70 }} />
           </SpaceImg>
           <SpaceText>
-            <h1>Zarezerwuj Lot już dzisiaj dzięki jednemu kliknięciu</h1>
+            <h1>Zarezerwuj Lot już dzisiaj</h1>
             <button type="button">Zarezerwuj Lot</button>
           </SpaceText>
         </Box>
@@ -65,6 +65,7 @@ const SpaceImg = styled.div``;
 
 const SpaceText = styled.div`
   padding-left: 10px;
+  text-align: center;
 
   h1 {
     padding-bottom: 10px;

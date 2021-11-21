@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import Fade from "react-reveal/Fade";
 
 function Page4() {
   return (
     <Container id="Page4">
+      <Fade left>
       <SpaceTitle>
         <h1>O nas</h1>
       </SpaceTitle>
@@ -20,6 +22,7 @@ function Page4() {
           pasażerskiego.{" "}
         </h1>
       </SpaceText>
+      </Fade>
     </Container>
   );
 }
@@ -59,6 +62,7 @@ const SpaceText = styled.div`
   padding-left: 5px;
   max-width: 90%;
   text-align: center;
+  align-items: center;
 
   ś h1 {
     font-size: 23px;

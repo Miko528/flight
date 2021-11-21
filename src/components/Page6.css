@@ -1,0 +1,51 @@
+.send:hover{
+    background-color: #80e3fc;
+    color: black;
+}
+
+.send:focus{
+    border: 3px solid  #80e3fc;
+}
+
+form{
+    
+width: 100vw;
+height: 100vh;
+background: #1a191d ;
+display: flex;
+flex-direction: column;
+padding: 0 90px;
+justify-content: center;
+
+}
+
+
+
+@media (max-width: 620px) {
+    form{padding: 0 20px;}
+}
+
+input{
+    height:45px;
+    background: transparent;
+    border-color: #80e3fc;
+    border-radius: 5px;
+    margin-top: 25px;
+    outline: none;
+}
+
+input:focus{
+    border: 2px solid #80e3fc;
+}
+
+textarea{
+    background: transparent;
+    border-color: #80e3fc;
+    border-radius: 5px;
+    margin-top: 25px;
+    outline: none;
+}
+
+textarea:focus{
+    border: 2px solid #80e3fc;
+}
